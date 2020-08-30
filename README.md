@@ -10,3 +10,5 @@ Deploy it on Flask App or Streamlight.
 https://www.kaggle.com/datafiniti/consumer-reviews-of-amazon-products
 This is the link for the dataset
 
+# Heroku Web-page link
+https://sentiment--ananlysis.herokuapp.com/
