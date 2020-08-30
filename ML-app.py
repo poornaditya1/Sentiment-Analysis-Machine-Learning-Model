@@ -35,3 +35,4 @@ if pred == 0:
   st.write("Negative Sentiment")
 else:
   st.write("Positive Sentiment")
+st.footer("Made by Poornaditya Mishra")
