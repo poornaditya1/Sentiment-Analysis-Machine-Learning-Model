@@ -6,7 +6,7 @@ import pandas as pd
 from sklearn.metrics import accuracy_score, confusion_matrix,classification_report
 
 
-df = pd.read_csv('/content/drive/My Drive/ML/Project/Amazon Review.csv')
+df = pd.read_csv('amazon review.csv')
 df1 = df.dropna(subset=['reviews.text'])
 df1 = df1.dropna(subset=['reviews.rating'])
 X = df1.iloc[:,16].values
@@ -31,4 +31,7 @@ def u_in():
 st.title("ML Project")
 df = u_in()
 pred = text_model.predict(df)
-st.write(pred)
+if pred == 0:
+  st.write("Negative Sentiment")
+else:
+  st.write("Positive Sentiment")
