@@ -29,10 +29,10 @@ def u_in():
   return a
 
 st.title("ML Project")
+st.subheader("Made by Poornaditya Mishra")
 df = u_in()
 pred = text_model.predict(df)
 if pred == 0:
   st.write("Negative Sentiment")
 else:
   st.write("Positive Sentiment")
-st.footer("Made by Poornaditya Mishra")
