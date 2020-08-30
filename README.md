@@ -11,4 +11,4 @@ https://www.kaggle.com/datafiniti/consumer-reviews-of-amazon-products
 This is the link for the dataset
 
 # Heroku Web-page link
-https://sentiment--ananlysis.herokuapp.com/
+https://sentiment-analyser0.herokuapp.com/
